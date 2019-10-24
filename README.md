@@ -4,22 +4,35 @@
 
 ```markdown
 
-対Scala用入力補完辞書
+Scala用入力補完辞書
+
+表示 [ Change_The_World ]
 
 ```
 
 [使い方]
 
-Use dein toml files
+deinパッケージマネージャ
+
+toml filesの設定
 
 ```scala
 
 [[plugins]]
 repo = 'takkii/MinTab'
+# ~/.vim/.cache/dein/repos/github.com/takkii/MinTab/autoload/source/scala
+
+[[plugins]]
+repo = 'takkii/MinTab'
+rev = 'neovim'
+# ~/.config/nvim/.cache/dein/repos/github.com/takkii/MinTab_neovim/autoload/source/scala
+
+[[plugins]]
+repo = 'takkii/MinTab'
+rev = 'linuxmint'
+# ~/.vim/repos/github.com/takkii/MinTab_linuxmint/autoload/source/scala
 
 ```
-
-*A Few Dark Power Plugins.*
 
 [詳細]
 
@@ -28,3 +41,5 @@ repo = 'takkii/MinTab'
 とりあえず、初期ファイル、初期構成。
 
 ```
+
+![にゃにゃ福の神](https://github.com/takkii/MinTab/blob/master/images/nyanya.jpg)
