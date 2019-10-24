@@ -16,7 +16,7 @@ deinパッケージマネージャ
 
 toml filesの設定
 
-```scala
+```markdown
 
 [[plugins]]
 repo = 'takkii/MinTab'
