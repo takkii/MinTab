@@ -32,13 +32,18 @@ repo = 'takkii/MinTab'
 rev = 'linuxmint'
 # ~/.vim/repos/github.com/takkii/MinTab_linuxmint/autoload/source/scala
 
+[[plugins]]
+repo = 'takkii/MinTab'
+rev = 'virtual'
+# ~/.config/nvim/repos/github.com/takkii/MinTab_virtual/autoload/source/scala
+
 ```
 
 [詳細]
 
 ```markdown
 
-とりあえず、初期ファイル、初期構成。
+構成ファイル、４つ。それぞれで適合のものを使う。
 
 ```
 
