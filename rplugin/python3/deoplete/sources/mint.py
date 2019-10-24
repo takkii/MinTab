@@ -7,7 +7,7 @@ from os.path import expanduser
 # ------------------------------- KEYWORD -------------------------------------------------------------------------
 
 home = expanduser("~")
-scala = open(os.path.expanduser("~/.config/nvim/.cache/dein/repos/github.com/takkii/MinTab/autoload/source/scala"))
+scala = open(os.path.expanduser("~/.vim/.cache/dein/repos/github.com/takkii/MinTab/autoload/source/scala"))
 scala_lib = scala.readlines()
 data_scala = list(map(lambda s:s.rstrip(),scala_lib))
 scala_lib.close()
