@@ -10,13 +10,33 @@ Scala用入力補完辞書
 
 ```
 
-[使い方]
-
-deinパッケージマネージャ
-
-toml filesの設定
+[ 条件 ]
 
 ```markdown
+
+・deinで管理
+
+・toml設定
+
+```
+
+[ 更新内容 ]
+
+```markdown
+
+!!NEW!!
+
+----------------------------------------------------------------
+
+[[plugins]]
+repo = 'takkii/MinTab'
+
+※ PATH問題は解決、想定される環境PATHを条件分岐しました。
+
+----------------------------------------------------------------
+
+
+手前のバージョンまで
 
 [[plugins]]
 repo = 'takkii/MinTab'
@@ -37,13 +57,15 @@ repo = 'takkii/MinTab'
 rev = 'virtual'
 # ~/.config/nvim/repos/github.com/takkii/MinTab_virtual/autoload/source/scala
 
+----------------------------------------------------------------
+
 ```
 
 [詳細]
 
 ```markdown
 
-構成ファイル、４つ。それぞれで適合のものを使う。
+最新では、条件分岐することでブランチでわけたPATHは読み込み時に切り替わります。
 
 ```
 
