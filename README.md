@@ -35,29 +35,7 @@ repo = 'takkii/MinTab'
 
 ----------------------------------------------------------------
 
-
-手前のバージョンまで
-
-[[plugins]]
-repo = 'takkii/MinTab'
-# ~/.vim/.cache/dein/repos/github.com/takkii/MinTab/autoload/source/scala
-
-[[plugins]]
-repo = 'takkii/MinTab'
-rev = 'neovim'
-# ~/.config/nvim/.cache/dein/repos/github.com/takkii/MinTab_neovim/autoload/source/scala
-
-[[plugins]]
-repo = 'takkii/MinTab'
-rev = 'linuxmint'
-# ~/.vim/repos/github.com/takkii/MinTab_linuxmint/autoload/source/scala
-
-[[plugins]]
-repo = 'takkii/MinTab'
-rev = 'virtual'
-# ~/.config/nvim/repos/github.com/takkii/MinTab_virtual/autoload/source/scala
-
-----------------------------------------------------------------
+※ 古い設定であるブランチは必要ないと動作確認をしました。
 
 ```
 
@@ -65,7 +43,7 @@ rev = 'virtual'
 
 ```markdown
 
-最新では、条件分岐することでブランチでわけたPATHは読み込み時に切り替わります。
+条件分岐することでブランチでわけたPATHは読み込み時に切り替わります。
 
 ```
 
