@@ -15,15 +15,15 @@ dire3 = os.path.expanduser("~/.config/nvim/.cache/dein/repos/github.com/takkii/M
 dire4 = os.path.expanduser("~/.config/nvim/repos/github.com/takkii/MinTab/")
 dire5 = os.path.expanduser("~/.cache/dein/repos/github.com/takkii/MinTab/")
 
-if os.path.exists(dire1):
+if os.path.isdir(dire1):
     scala = open(os.path.expanduser("~/.vim/.cache/dein/repos/github.com/takkii/MinTab/autoload/source/scala"))
-elif os.path.exists(dire2):
+elif os.path.isdir(dire2):
     scala = open(os.path.expanduser("~/.vim/repos/github.com/takkii/MinTab/autoload/source/scala"))
-elif os.path.exists(dire3):
+elif os.path.isdir(dire3):
     scala = open(os.path.expanduser("~/.config/nvim/.cache/dein/repos/github.com/takkii/MinTab/autoload/source/scala"))
-elif os.path.exists(dire4):
+elif os.path.isdir(dire4):
     scala = open(os.path.expanduser("~/.config/nvim/repos/github.com/takkii/MinTab/autoload/source/scala"))
-elif os.path.exists(dire5):
+elif os.path.isdir(dire5):
     scala = open(os.path.expanduser("~/.cache/dein/repos/github.com/takkii/MinTab/autoload/source/scala"))
 else:
     print('どれにも該当しません、MinTabを入れてください。')
